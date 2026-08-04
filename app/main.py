@@ -123,7 +123,6 @@ def fetch_remoteok() -> List[Dict]:
     return jobs
 
 
-# 
 def fetch_wwr() -> List[Dict]:
     jobs = []
     try:
