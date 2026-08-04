@@ -618,9 +618,7 @@ def fetch_wwr() -> List[Dict]:
     return jobs
 
 
-# -------------------------------------------------------------------------
-# SOURCE 4: Arbeitnow - free public JSON API, full board pulled.
-# -------------------------------------------------------------------------
+
 def fetch_arbeitnow() -> List[Dict]:
     jobs = []
     try:
