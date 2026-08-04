@@ -102,7 +102,7 @@ def fetch_remotive(keyword: str) -> List[Dict]:
     return jobs
 
 
-# central relevance_score() decide what matches (no premature filtering).
+# central relevance matches (no premature filtering).
 # 
 def fetch_remoteok() -> List[Dict]:
     jobs = []
