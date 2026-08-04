@@ -595,9 +595,7 @@ def fetch_remoteok() -> List[Dict]:
     return jobs
 
 
-# -------------------------------------------------------------------------
-# SOURCE 3: We Work Remotely - official RSS feed, full category pulled.
-# -------------------------------------------------------------------------
+
 def fetch_wwr() -> List[Dict]:
     jobs = []
     try:
