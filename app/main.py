@@ -11,7 +11,6 @@ from fastapi.responses import HTMLResponse
 app = FastAPI()
 
 
-# DOMAIN FOCUS (in priority order):
 #   1) Office JS Add-ins  -> Excel / Outlook / Word / PowerPoint Add-ins
 #   2) Google Workspace Add-ons -> Sheets / Docs / Gmail / Apps Script
 #   3) Full-stack Web -> Python, MERN, ASP.NET Core, Next.js, etc.
