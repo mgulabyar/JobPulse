@@ -123,7 +123,7 @@ def fetch_remoteok() -> List[Dict]:
     return jobs
 
 
-# -------------------------------------------------------------------------
+# 
 # SOURCE 3: We Work Remotely (official RSS) - pull full category feed.
 # -------------------------------------------------------------------------
 def fetch_wwr() -> List[Dict]:
