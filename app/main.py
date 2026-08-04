@@ -146,8 +146,6 @@ def fetch_wwr() -> List[Dict]:
     return jobs
 
 
-# 
-# 
 def fetch_arbeitnow() -> List[Dict]:
     jobs = []
     try:
