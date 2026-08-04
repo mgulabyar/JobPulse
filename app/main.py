@@ -11,7 +11,6 @@ from fastapi.responses import HTMLResponse
 app = FastAPI()
 
 
-#   3) Full-stack Web -> Python, MERN, ASP.NET Core, Next.js, etc.
 # =========================================================================
 
 KEYWORD_SYNONYMS: Dict[str, List[str]] = {
