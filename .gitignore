@@ -30,7 +30,6 @@ Thumbs.db
 .coverage
 htmlcov/
 
-# Type check / lint cache
 .mypy_cache/
 .ruff_cache/
 
