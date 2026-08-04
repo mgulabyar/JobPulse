@@ -83,7 +83,7 @@ def relevance_score(title: str, desc: str, company: str, search_terms: List[str]
     return score
 
 
-# -------------------------------------------------------------------------
+# 
 # SOURCE 1: Remotive (free public JSON API, server-side search)
 # -------------------------------------------------------------------------
 def fetch_remotive(keyword: str) -> List[Dict]:
