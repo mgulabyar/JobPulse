@@ -102,7 +102,6 @@ def fetch_remotive(keyword: str) -> List[Dict]:
     return jobs
 
 
-# -------------------------------------------------------------------------
 # SOURCE 2: RemoteOK (free public JSON API) - pull full board, let the
 # central relevance_score() decide what matches (no premature filtering).
 # -------------------------------------------------------------------------
