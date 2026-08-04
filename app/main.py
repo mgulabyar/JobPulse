@@ -146,7 +146,7 @@ def fetch_wwr() -> List[Dict]:
     return jobs
 
 
-# -------------------------------------------------------------------------
+# 
 # SOURCE 4: Arbeitnow (free public JSON API) - pull full board.
 # -------------------------------------------------------------------------
 def fetch_arbeitnow() -> List[Dict]:
