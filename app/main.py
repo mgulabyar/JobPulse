@@ -102,7 +102,6 @@ def fetch_remotive(keyword: str) -> List[Dict]:
     return jobs
 
 
-# 
 def fetch_remoteok() -> List[Dict]:
     jobs = []
     try:
