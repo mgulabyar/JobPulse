@@ -212,7 +212,7 @@ def fetch_jobs(keyword: str = Query(..., description="Job keyword, e.g. 'Excel A
         seen_links.add(link)
         score = relevance_score(job["title"], job["raw_desc"], job.get("company", ""), search_terms)
         if score < 4:
-            continue  # must at least match
+            continue 
         job["score"] = score
         scored.append(job)
 
