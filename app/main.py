@@ -82,9 +82,6 @@ def relevance_score(title: str, desc: str, company: str, search_terms: List[str]
             score += 1
     return score
 
-
-# 
-# 
 def fetch_remotive(keyword: str) -> List[Dict]:
     jobs = []
     try:
