@@ -9,7 +9,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual / 
 build/
 dist/
 *.egg-info/
