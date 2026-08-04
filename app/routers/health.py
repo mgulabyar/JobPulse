@@ -6,4 +6,4 @@ router = APIRouter()
 def health_check():
     return {"status": "ok", "message": "JobPulse backend is running"}
 
-#  api router for health check endpoint
+#  api router for h
