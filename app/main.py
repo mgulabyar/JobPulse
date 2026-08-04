@@ -165,7 +165,6 @@ def fetch_arbeitnow() -> List[Dict]:
     return jobs
 
 
-# -------------------------------------------------------------------------
 # SOURCE 5: Jobicy (free public JSON API, server-side search via tag)
 # -------------------------------------------------------------------------
 def fetch_jobicy(keyword: str) -> List[Dict]:
