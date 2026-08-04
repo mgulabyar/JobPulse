@@ -56,7 +56,6 @@ def expand_keywords(keyword: str) -> List[str]:
     for base, synonyms in KEYWORD_SYNONYMS.items():
         if key == base or f" {base} " in f" {key} " or f" {key} " in f" {base} ":
             terms.update(synonyms)
-    # also add individual meaningful words from the raw keyword (len > 2)
     for word in re.split(r"[\s\-/]+", key):
         if len(word) > 2:
             terms.add(word)
