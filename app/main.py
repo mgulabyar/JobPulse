@@ -11,7 +11,6 @@ from fastapi.responses import HTMLResponse
 app = FastAPI()
 
 
-#   2) Google Workspace Add-ons -> Sheets / Docs / Gmail / Apps Script
 #   3) Full-stack Web -> Python, MERN, ASP.NET Core, Next.js, etc.
 # =========================================================================
 
