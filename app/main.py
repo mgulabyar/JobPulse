@@ -618,7 +618,7 @@ def fetch_jobs(keyword: str = Query(..., description="Job keyword, e.g. 'Office 
     top_jobs = normalize_jobs(all_jobs, search_terms)
 
     print("Filtered Jobs:", len(top_jobs))
-    print("================ JOB SEARCH END \n")
+    print("= JOB SEARCH END \n")
 
     if not top_jobs:
         return {
