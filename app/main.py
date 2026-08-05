@@ -10,8 +10,6 @@ from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
-
-
 KEYWORD_SYNONYMS: Dict[str, List[str]] = {
     "excel addin": ["excel add-in", "excel add in", "office add-in", "office.js", "office js", "vsto", "excel plugin"],
     "outlook addin": ["outlook add-in", "outlook add in", "office add-in", "office.js", "office js", "vsto"],
